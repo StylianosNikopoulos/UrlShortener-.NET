@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.UrlShortener.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{4ADF44D1-FBBB-4654-A7A1-324556249F63}" ItemName="UrlShortener.API" ConfigurationId="https" />
+        <StartupItem ItemId="{EEDFAC91-711D-422B-9943-B45634483918}" ItemName="UrlShortener.MVC" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.UrlShortener.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

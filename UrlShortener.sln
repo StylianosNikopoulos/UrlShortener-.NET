@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.API", "UrlShortener.API\UrlShortener.API.csproj", "{4ADF44D1-FBBB-4654-A7A1-324556249F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.MVC", "UrlShortener.MVC\UrlShortener.MVC.csproj", "{EEDFAC91-711D-422B-9943-B45634483918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADF44D1-FBBB-4654-A7A1-324556249F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADF44D1-FBBB-4654-A7A1-324556249F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADF44D1-FBBB-4654-A7A1-324556249F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADF44D1-FBBB-4654-A7A1-324556249F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDFAC91-711D-422B-9943-B45634483918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDFAC91-711D-422B-9943-B45634483918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDFAC91-711D-422B-9943-B45634483918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDFAC91-711D-422B-9943-B45634483918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE928927-5133-4DD9-B9CE-969F7936BBF2}
+	EndGlobalSection
+EndGlobal

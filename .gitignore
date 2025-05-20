@@ -1,0 +1,30 @@
+# Ignore JSON files
+*.json
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore temp/log files
+*.tmp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore env files
+.env
+.env.*
+
+# Ignore node (if frontend)
+node_modules/
+package-lock.json
