@@ -36,7 +36,7 @@ namespace UrlShortener.API.Controllers
             if (!response.Found)
                 return NotFound("Short URL not found.");
 
-            return Ok(response.LongUrl);
+            return Redirect(response.LongUrl); 
         }
     }
 }

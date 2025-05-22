@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UrlShortener.API.Data;
 using UrlShortener.API.Handlers.Url;
+using UrlShortener.API.Requests.Url;
 using UrlShortener.API.Services;
 using UrlShortener.API.Services.Factories;
 using UrlShortener.API.Services.Interfaces;
@@ -26,6 +27,17 @@ builder.Services.AddScoped<IShortCodeGenerator, DefaultShortCodeGenerator>();
 
 
 var app = builder.Build();
+
+app.MapGet("/{shortCode}", async (string shortCode, HttpContext http, RedirectUrlHandler handler) =>
+{
+    var result = await handler.HandleRedirectUrlAsync(new RedirectUrlRequest { ShortCode = shortCode });
+
+    if (!result.Found || string.IsNullOrWhiteSpace(result.LongUrl))
+        return Results.NotFound("Short URL not found");
+
+    return Results.Redirect(result.LongUrl);
+});
+
 
 if (app.Environment.IsDevelopment())
 {
