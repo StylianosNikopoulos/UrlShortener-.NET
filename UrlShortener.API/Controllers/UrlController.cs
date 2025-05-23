@@ -28,7 +28,7 @@ namespace UrlShortener.API.Controllers
         }
 
 
-        [HttpGet("{shortCode}")]
+        [HttpGet("/{shortCode}")]
         public async Task<IActionResult> RedirectToLongUrl(string shortCode)
         {
             var response = await _redirectUrlHandler.HandleRedirectUrlAsync(new RedirectUrlRequest { ShortCode = shortCode });

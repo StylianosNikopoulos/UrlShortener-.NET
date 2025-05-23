@@ -1,33 +1,22 @@
-﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.UrlShortener.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="UrlShortener.API/Program.cs">
-    <Files>
-      <File FileName="UrlShortener.API/Services/Factories/DefaultShortCodeGenerator.cs" Line="12" Column="6" />
-      <File FileName="UrlShortener.API/Services/Interfaces/IShortCodeGenerator.cs" Line="6" Column="18" />
-      <File FileName="UrlShortener.API/Services/Interfaces/IUrlService.cs" Line="8" Column="35" />
-      <File FileName="UrlShortener.API/Services/UrlService.cs" Line="42" Column="59" />
-      <File FileName="UrlShortener.API/Program.cs" Line="18" Column="35" />
-    </Files>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="UrlShortener" expanded="True">
-            <Node name="UrlShortener.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Interfaces" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="UrlShortener" selected="True">
+            <Node name="UrlShortener.Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.UrlShortener.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -36,6 +25,7 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.UrlShortener.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.UrlShortener.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

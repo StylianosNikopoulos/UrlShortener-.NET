@@ -22,7 +22,21 @@ namespace UrlShortener.API.Services
 
         public async Task<string> CreateShortUrlAsync(string longUrl)
         {
-            var shortCode = _generator.Generate();
+            var existingUrl = await _context.UrlMappings.FirstOrDefaultAsync(x => x.LongUrl == longUrl);
+            var baseUrl = _configuration["Urls:BaseShortUrl"] ?? throw new InvalidOperationException("BaseShortUrl is missing");
+
+            if (existingUrl != null)
+            {
+                return $"{baseUrl}/{existingUrl.ShortCode}"; 
+            }
+
+            string shortCode;
+
+            do
+            {
+                shortCode = _generator.Generate();
+            }
+            while (await _context.UrlMappings.AnyAsync(x => x.ShortCode == shortCode));
 
             var mapping = new UrlMapping
             {
@@ -34,7 +48,6 @@ namespace UrlShortener.API.Services
             _context.UrlMappings.Add(mapping);
             await _context.SaveChangesAsync();
 
-            var baseUrl = _configuration["Urls:BaseShortUrl"] ?? throw new InvalidOperationException("BaseShortUrl is missing");
             return $"{baseUrl}/{shortCode}";
         }
 

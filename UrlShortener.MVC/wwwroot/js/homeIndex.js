@@ -12,6 +12,7 @@
         }
 
         shortenBtn.disabled = true;
+        urlInput.disabled = true;
         resultDiv.innerHTML = `<p>Loading...</p>`;
 
         try {
@@ -29,6 +30,7 @@
                         <strong>Shortened URL:</strong> 
                         <a href="${data.shortUrl}" target="_blank">${data.shortUrl}</a>
                     </div>`;
+                });
             }
             else
             {
@@ -39,6 +41,7 @@
             resultDiv.innerHTML = `<div class="alert alert-danger">Unexpected error occurred.</div>`;
         } finally {
             shortenBtn.disabled = false;
+            urlInput.disabled = false;
         }
     });
 });
