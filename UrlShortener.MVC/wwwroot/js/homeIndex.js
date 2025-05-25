@@ -30,7 +30,6 @@
                         <strong>Shortened URL:</strong> 
                         <a href="${data.shortUrl}" target="_blank">${data.shortUrl}</a>
                     </div>`;
-                });
             }
             else
             {
