@@ -1,39 +1,8 @@
 ﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.UrlShortener.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UrlShortener.Tests/Services/UrlServiceTests.cs">
-    <Files>
-      <File FileName="UrlShortener.API/Controllers/UrlController.cs" />
-      <File FileName="UrlShortener.MVC/Controllers/HomeController.cs" Line="34" Column="55" />
-      <File FileName="UrlShortener.MVC/Services/UrlShortenerService.cs" Line="22" Column="45" />
-      <File FileName="UrlShortener.MVC/Services/Interfaces/IUrlShortenerService.cs" Line="8" Column="32" />
-      <File FileName="UrlShortener.Tests/Services/UrlServiceTests.cs" Line="73" Column="15" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="UrlShortener">
-            <Node name="UrlShortener.MVC">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Interfaces" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="UrlShortener.Tests" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="UrlServiceTests.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UrlShortener.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -42,4 +11,58 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UrlShortener.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UrlShortener.Tests/Handlers/RedirectUrlHandlerTests.cs">
+    <Files>
+      <File FileName="UrlShortener.MVC/wwwroot/js/homeIndex.js" Line="19" Column="59" />
+      <File FileName="UrlShortener.API/Services/Interfaces/IShortCodeGenerator.cs" Line="1" Column="1" />
+      <File FileName="UrlShortener.API/Services/Factories/DefaultShortCodeGenerator.cs" Line="3" Column="1" />
+      <File FileName="UrlShortener.API/Services/Interfaces/IUrlService.cs" Line="1" Column="1" />
+      <File FileName="UrlShortener.API/Services/UrlService.cs" Line="27" Column="1" />
+      <File FileName="UrlShortener.API/Controllers/UrlController.cs" Line="26" Column="68" />
+      <File FileName="UrlShortener.API/Handlers/Url/ShortenUrlHandler.cs" Line="18" Column="41" />
+      <File FileName="UrlShortener.MVC/Controllers/HomeController.cs" Line="16" Column="6" />
+      <File FileName="UrlShortener.MVC/Services/Interfaces/IUrlShortenerService.cs" Line="1" Column="1" />
+      <File FileName="UrlShortener.MVC/Services/UrlShortenerService.cs" Line="36" Column="10" />
+      <File FileName="UrlShortener.API/Models/UrlMapping.cs" Line="10" Column="1" />
+      <File FileName="UrlShortener.MVC/Requests/ShortenRequest.cs" Line="12" Column="2" />
+      <File FileName="UrlShortener.MVC/Responses/ShortenResponse.cs" Line="8" Column="2" />
+      <File FileName="UrlShortener.Tests/Services/UrlServiceTests.cs" Line="9" Column="1" />
+      <File FileName="UrlShortener.Tests/Handlers/RedirectUrlHandlerTests.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UrlShortener">
+            <Node name="UrlShortener.MVC" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Requests" expanded="True" />
+              <Node name="Responses" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="UrlShortener.Tests" expanded="True">
+              <Node name="Handlers" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UrlShortener" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
