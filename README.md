@@ -14,7 +14,6 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 > 4. Redirects to the original URL via the shortened one  
 > 5. Tracks visits to each shortened URL  
 >
-> All data should persist across restarts and support basic statistics.
 
 ---
 
@@ -49,8 +48,8 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 ```plaintext
 UrlShortener.API         # Web API project
 ├── Controllers
-├── Handlers             # Request handlers for business logic
-├── Services             # Core services (UrlService, ShortCodeGenerator)
+├── Handlers             # Handlers for business logic
+├── Services             # Core services 
 ├── Data                 # EF Core DB context and models
 ├── Requests/Responses   # DTOs for API
 └── Program.cs
