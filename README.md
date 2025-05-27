@@ -48,8 +48,8 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 ```plaintext
 UrlShortener.API         # Web API project
 ├── Controllers
-├── Handlers             # Handlers for business logic
-├── Services             # Core services 
+├── Handlers             
+├── Services             # Service layer for business logic
 ├── Data                 # EF Core DB context and models
 ├── Requests/Responses   # DTOs for API
 └── Program.cs
