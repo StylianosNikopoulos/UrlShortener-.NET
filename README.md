@@ -2,7 +2,7 @@
 
 This project is a **URL shortening service** inspired by platforms like `bit.ly`. It allows users to submit long URLs, receive shortened versions, and later resolve those shortened URLs back to the original addresses. Built using **ASP.NET Core Web API** for the backend and **ASP.NET Core MVC** for the frontend.
 
----
+----
 
 ## 📋 Goals
 
@@ -15,7 +15,7 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 > 5. Tracks visits to each shortened URL  
 >
 
----
+----
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 - 🧪 Unit tests for handlers and services
 - 🚦 GitHub Actions CI for build and test automation
 
----
+----
 
 ## 🧱 Tech Stack
 
@@ -41,7 +41,7 @@ This project is a **URL shortening service** inspired by platforms like `bit.ly`
 - **GitHub Actions** (CI)
 - **xUnit / Moq** (Unit Testing)
 
----
+----
 
 ## 🗂️ Project Structure
 
